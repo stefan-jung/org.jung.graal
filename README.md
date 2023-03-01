@@ -1,6 +1,6 @@
 # DOCTALES Graal
 
-![GraalVM](.github/assets/logo_320x64.svg)
+![GraalVM](https://raw.githubusercontent.com/oracle/graal/master/.github/assets/logo_320x64.svg)
 
 DOCTALES Graal is a simple wrapper DITA-OT plugin, which provides the Graal VM, which is needed to execute JavaScript in Apache Ant.
 
