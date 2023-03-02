@@ -18,7 +18,7 @@ dita install https://github.com/doctales/org.doctales.graal/archive/refs/heads/m
 
 ## Usage
 
-You can use the Apache Ant **`[<script>](https://ant.apache.org/manual/Tasks/script.html)`** task.
+You can use the Apache Ant [**`<script>`**](https://ant.apache.org/manual/Tasks/script.html) task.
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -30,14 +30,13 @@ You can use the Apache Ant **`[<script>](https://ant.apache.org/manual/Tasks/scr
         echo = MyProject.createTask("echo");
         echo.setMessage("Hello World!");
         echo.perform();
-      }
     ]]></script>
   </target>
 
 </project>
 ```
 
-As an alternative, you can also use the **`[<scriptdef>](https://ant.apache.org/manual/Tasks/scriptdef.html)`** task to create custom Ant tasks.
+As an alternative, you can also use the [**`<scriptdef>`**](https://ant.apache.org/manual/Tasks/scriptdef.html) task to create custom Ant tasks.
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
