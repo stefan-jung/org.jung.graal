@@ -56,6 +56,19 @@ As an alternative, you can also use the [**`<scriptdef>`**](https://ant.apache.o
 </project>
 ```
 
+## Libraries
+
+The libraries used in this plugin can be obtained from:
+
+Library | Maven Repository
+------------ | -------------
+**commons-io** | https://mvnrepository.com/artifact/commons-io/commons-io
+**js** | https://mvnrepository.com/artifact/org.graalvm.js/js
+**js-scriptengine** | https://mvnrepository.com/artifact/org.graalvm.js/js-scriptengine
+**graal-sdk** | https://mvnrepository.com/artifact/org.graalvm.sdk/graal-sdk
+**truffle-api** | https://mvnrepository.com/artifact/org.graalvm.truffle/truffle-api
+**icu4j** | https://mvnrepository.com/artifact/com.ibm.icu/icu4j
+
 
 ## License
 
