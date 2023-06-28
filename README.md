@@ -1,8 +1,7 @@
-# DOCTALES Graal
-
+# org.jung.graal
 ![GraalVM](https://raw.githubusercontent.com/oracle/graal/master/.github/assets/logo_320x64.svg)
 
-DOCTALES Graal is a simple wrapper DITA-OT plugin, which provides the Graal VM, which is needed to execute JavaScript in Apache Ant.
+**org.jung.graal** is a plugin for the [DITA-OT](https://www.dita-ot.org/plugins) that provides the Graal VM, which is needed to execute JavaScript in Apache Ant.
 
 GraalVM is a high-performance JDK distribution designed to accelerate the execution of applications written in Java and other JVM languages along with support for JavaScript, Ruby, Python, and a number of other popular languages.
 
@@ -12,7 +11,7 @@ GraalVM is a high-performance JDK distribution designed to accelerate the execut
 Install this plugin with the `dita` command.
 
 ```bash
-dita install https://github.com/doctales/org.doctales.graal/archive/refs/heads/main.zip
+dita install https://github.com/stefan-jung/org.jung.graal/archive/refs/heads/main.zip
 ```
 
 

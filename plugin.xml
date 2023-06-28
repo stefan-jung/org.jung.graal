@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="dita-ot/plugin.rnc" type="application/relax-ng-compact-syntax"?>
-<plugin id="org.doctales.graal">
+<plugin id="org.jung.graal">
     <feature extension="dita.conductor.lib.import" file="commons-io-1.3.1.jar"/>
     <feature extension="dita.conductor.lib.import" file="js-20.2.0.jar"/>
     <feature extension="dita.conductor.lib.import" file="js-scriptengine-20.2.0.jar"/>
