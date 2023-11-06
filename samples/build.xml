@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="MyProject" basedir="." default="main">
+    
+    <scriptdef name="custom-echo" language="javascript">
+        <attribute name="msg"/>
+        <![CDATA[
+            self.log(attributes.get("msg"));
+        ]]>
+    </scriptdef>
+    
+    <target name="main">
+        <custom-echo msg="Hello World!"/>
+    </target>
+    
+</project>
