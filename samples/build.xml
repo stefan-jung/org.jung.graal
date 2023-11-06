@@ -17,7 +17,7 @@
         </fileset>
     </path>
     
-    <scriptdef name="custom-echo" language="javascript">
+    <scriptdef name="custom-echo" language="javascript" classpathref="graal">
         <attribute name="msg"/>
         <![CDATA[
             self.log(attributes.get("msg"));
