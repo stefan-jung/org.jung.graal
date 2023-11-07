@@ -1,6 +1,11 @@
 # org.jung.graal
 ![GraalVM](https://raw.githubusercontent.com/oracle/graal/master/.github/assets/logo_320x64.svg)
 
+[![DITA-OT 4.1.2](https://img.shields.io/badge/DITA--OT-4.1.2-green.svg)](http://www.dita-ot.org)
+[![DITA-OT 4.0.2](https://img.shields.io/badge/DITA--OT-4.0.2-green.svg)](http://www.dita-ot.org)
+[![DITA-OT 3.7.4](https://img.shields.io/badge/DITA--OT-3.7.4-green.svg)](http://www.dita-ot.org) 
+[![license](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](http://www.apache.org/licenses/LICENSE-2.0)
+[![CI](https://github.com/stefan-jung/org.jung.graal/actions/workflows/main.yml/badge.svg?branch=main)](https://github.com/stefan-jung/org.jung.graal/actions/workflows/main.yml)
 **org.jung.graal** is a plugin for the [DITA-OT](https://www.dita-ot.org/plugins) that provides the Graal VM, which is needed to execute JavaScript in Apache Ant.
 
 GraalVM is a high-performance JDK distribution designed to accelerate the execution of applications written in Java and other JVM languages along with support for JavaScript, Ruby, Python, and a number of other popular languages.
