@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    
+    <scriptdef name="graal-test" language="javascript">
+        <attribute name="msg"/>
+        self.log(attributes.get("msg"));
+    </scriptdef>
+    
+    <target name="dita2graal-test">
+        <graal-test msg="Hello World!"/>
+    </target>
+  
+</project>

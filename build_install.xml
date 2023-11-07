@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="Install org.jung.graal" default="install">
+    
+    <condition property="dita.cmd" value="dita.bat">
+        <os family="windows"/>
+    </condition>
+    <condition property="dita.cmd" value="dita">
+        <os family="unix"/>
+    </condition>
+    
+    <target name="install">
+        <mkdir dir="${dita.dir}/plugins/org.jung.graal"/>
+        <echo>Copy files to "${dita.dir}/plugins/org.jung.graal"</echo>
+        <!-- If overwrite="true" is not set, the <copy> task only overwrites files, which are older than the source file (the copied file). -->
+        <copy todir="${dita.dir}/plugins/org.jung.graal" verbose="true">
+            <fileset dir=".">
+                <exclude name="build_install.xml"/>
+                <exclude name="**/*.xpr"/>
+                <exclude name="**/*.zip"/>
+                <exclude name="**/build/**"/>
+                <exclude name="**/out/**"/>
+                <exclude name="**/temp/**"/>
+                <exclude name="**/samples/**"/>
+            </fileset>
+        </copy>
+        <exec executable="${dita.dir}${file.separator}bin${file.separator}${dita.cmd}">
+            <arg line="--install"/>
+        </exec>
+    </target>
+    
+</project>

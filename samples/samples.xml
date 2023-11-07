@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="https://www.dita-ot.org/project">
+  
+  <deliverable name="Graal VM Test" id="graal">
+    <context name="Graal VM Test" id="graal-context">
+      <input href="samples.ditamap"/>
+    </context>
+    <output href="."/>
+    <publication transtype="graal-test"/>
+  </deliverable>
+  
+</project>

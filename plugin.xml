@@ -2,6 +2,10 @@
 <?xml-model file="dita-ot/plugin.rnc" type="application/relax-ng-compact-syntax"?>
 <plugin id="org.jung.graal">
     
+    <feature extension="ant.import" file="ant/build_graal.xml"/>
+    <transtype name="graal-test" desc="Send a Hello World through Graal VM"/>
+    
+    
     <!-- Source: https://mvnrepository.com/artifact/commons-io/commons-io -->
     <feature extension="dita.conductor.lib.import" file="lib/commons-io-2.15.0.jar"/>
     
