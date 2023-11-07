@@ -5,18 +5,25 @@
     <!-- Source: https://mvnrepository.com/artifact/commons-io/commons-io -->
     <feature extension="dita.conductor.lib.import" file="lib/commons-io-2.15.0.jar"/>
     
+    <!-- https://mvnrepository.com/artifact/com.ibm.icu/icu4j -->
+    <feature extension="dita.conductor.lib.import" file="lib/icu4j-74.1.jar"/>
+    
+
+    <!-- These libraries should have the same version number -->
+    
     <!-- https://mvnrepository.com/artifact/org.graalvm.js/js -->
     <feature extension="dita.conductor.lib.import" file="lib/js-23.0.2.jar"/>
     
     <!-- https://mvnrepository.com/artifact/org.graalvm.js/js-scriptengine -->
-    <feature extension="dita.conductor.lib.import" file="lib/js-scriptengine-23.1.1.jar"/>
+    <feature extension="dita.conductor.lib.import" file="lib/js-scriptengine-23.0.2.jar"/>
     
     <!-- https://mvnrepository.com/artifact/org.graalvm.sdk/graal-sdk -->
-    <feature extension="dita.conductor.lib.import" file="lib/graal-sdk-23.1.1.jar"/>
+    <feature extension="dita.conductor.lib.import" file="lib/graal-sdk-23.0.2.jar"/>
     
     <!-- https://mvnrepository.com/artifact/org.graalvm.truffle/truffle-api -->
-    <feature extension="dita.conductor.lib.import" file="lib/truffle-api-23.1.1.jar"/>
+    <feature extension="dita.conductor.lib.import" file="lib/truffle-api-23.0.2.jar"/>
     
-    <!-- https://mvnrepository.com/artifact/com.ibm.icu/icu4j -->
-    <feature extension="dita.conductor.lib.import" file="lib/icu4j-74.1.jar"/>
+    <!-- https://mvnrepository.com/artifact/org.graalvm.regex/regex -->
+    <feature extension="dita.conductor.lib.import" file="lib/regex-23.0.2.jar"/>
+    
 </plugin>

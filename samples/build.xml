@@ -7,17 +7,10 @@
         and called from a DITA-OT transformation.
     -->
     <path id="graal">
-        <fileset dir="../lib/">
-            <include name="commons-io-2.15.0.jar"/>
-            <include name="js-23.0.2.jar"/>
-            <include name="js-scriptengine-23.1.1.jar"/>
-            <include name="graal-sdk-23.1.1.jar"/>
-            <include name="truffle-api-23.1.1.jar"/>
-            <include name="icu4j-74.1.jar" />
-        </fileset>
+        <fileset dir="../lib/" includes="*.jar"/>
     </path>
     
-    <scriptdef name="custom-echo" language="javascript" classpathref="graal">
+    <scriptdef name="custom-echo" language="javascript">
         <attribute name="msg"/>
         <![CDATA[
             self.log(attributes.get("msg"));
@@ -26,6 +19,11 @@
     
     <target name="main">
         <custom-echo msg="Hello World!"/>
+        <script language="javascript">
+            echo = MyProject.createTask("echo");
+            echo.setMessage("Hello New World!");
+            echo.perform();
+        </script>
     </target>
     
 </project>
